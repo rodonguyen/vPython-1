@@ -17,3 +17,5 @@ make
 
 sudo make install
 ```
+
+This will install vPython as an instance of Python v3.9.7 - if Python3.9 is already installed, there will be a collision!
