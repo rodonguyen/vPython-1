@@ -2,7 +2,7 @@
 
 [Original vPython](https://github.com/ANRGUSC/vPython) developed by Dr. Gowri Ramachandran (g.ramachandran@qut.edu.au)
 
-Current simplified version modified by Tao Liu (n9912517@qut.edu.au)
+Current simplified version modified by Tao Liu (t24.liu@connect.qut.edu.au)
 
 # Installation Guide
 
