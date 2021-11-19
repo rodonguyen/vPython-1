@@ -1,8 +1,10 @@
-# Verifiable Python v0.1.0 
+# Verifiable Python
 
 [Original vPython](https://github.com/ANRGUSC/vPython) developed by Dr. Gowri Ramachandran (g.ramachandran@qut.edu.au)
 
-Current simplified version modified by Tao Liu (t24.liu@connect.qut.edu.au)
+[WhistleBlower: Towards A Decentralized and Open Platform for Spotting Fake News](https://eprints.qut.edu.au/209248/)
+
+This version of vPython is a simplification by Tao Liu (t24.liu@connect.qut.edu.au) and was built for testing purposes.
 
 # Installation Guide
 
