@@ -9,15 +9,11 @@ This version of vPython is a simplification by Tao Liu (t24.liu@connect.qut.edu.
 # Installation Guide
 
 ```
-git clone https://github.com/EsperLiu/vPython.git
-
+git clone https://github.com/rodonguyen/vPython-rodo
 cd ./vPython
-
 ./configurate
-
 make
-
 sudo make install
 ```
 
-This will install vPython as an instance of Python v3.9.7 - if Python3.9 is already installed, there will be a collision!
+!!! This vPython will overwrite your existed Python3.9 if it is already installed.
