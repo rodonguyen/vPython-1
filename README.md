@@ -11,7 +11,7 @@ This version of vPython is a simplification by Tao Liu (t24.liu@connect.qut.edu.
 ```
 git clone https://github.com/rodonguyen/vPython-rodo
 cd ./vPython
-./configurate
+./configure
 make
 sudo make install
 ```
