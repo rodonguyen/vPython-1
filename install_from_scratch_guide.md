@@ -60,7 +60,7 @@ Check vPython
 
 If everything works just fine, no error is prompted. Otherwise, run the install command in step 4 and re-install vPython (./configure, make, sudo make install).
 
-7. 
+7.  
 While you're in vPython, to check if vPython produces a trace as we wanted, create a function with quite a unique name, like this:
 
     >>> def hello_dr_rodo():
@@ -68,6 +68,11 @@ While you're in vPython, to check if vPython produces a trace as we wanted, crea
     >>> hello_dr_rodo()
 
 Search for the function name in vpython.txt (the trace) in the current directory. If found, HUGE CONGRATS :)
+
+8.
+Remember to remove vpython.txt to clear some room for you RPi
+
+    rm vpython.txt
 
 
 9. 
