@@ -82,7 +82,7 @@ Follow instruction in the link and Replace python3.8.4 by python3.8.13 because w
 
 Install necessary packages for both Python 3.8
 
-    python3.8 -m pip install scikit-learn matplotlib jupyter pandas tensorflow scipy seaborn
+    python3.8 -m pip install scikit-learn matplotlib jupyter pandas scipy seaborn numpy
 
 10. 
 Celebrate !
