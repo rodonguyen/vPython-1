@@ -24,7 +24,8 @@ Install essential packages for your Ubuntu
 
 3. 
 Check your Python version and what command to access them  
-
+    
+    E.g. python / python3 / python3.9 / python3.8 
     Mine is: python3 / python3.9 -> python3.9.7
 
 These commands will be used for vPython afterwards. Note that vPython will overwrite python3.9 and should appear as `Python3.9.7+`
@@ -57,7 +58,7 @@ Check vPython
     Type "help", "copyright", "credits" or "license" for more information.
     >>> import sklearn, matplotlib, jupyter, pandas, scipy, seaborn, math, numpy, time
 
-If everything works just fine, no error is prompted.
+If everything works just fine, no error is prompted. Otherwise, run the install command in step 4 and re-install vPython (./configure, make, sudo make install).
 
 7. 
 While you're in vPython, to check if vPython produces a trace as we wanted, create a function with quite a unique name, like this:
