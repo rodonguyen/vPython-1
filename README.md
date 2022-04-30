@@ -16,4 +16,9 @@ make
 sudo make install
 ```
 
-!!! This vPython will overwrite your existed Python3.9 if it is already installed.
+# Install from Scratch (in a completely new machine)
+[Click to view the guide](./install_from_scratch_guide.md)
+
+
+## P/S
+> !!! This vPython will overwrite your existed Python3.9 if it is already installed.
