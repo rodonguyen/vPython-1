@@ -34,7 +34,7 @@ These commands will be used for vPython afterwards. Note that vPython will overw
 4.
 Install necessary packages for Python 3.9 in advance so that after installing vPython, it will inherit those packages (I think...)   
 
-    python3.9 -m pip install scikit-learn matplotlib jupyter pandas scipy seaborn numpy
+    python3.9 -m pip install sklearn pytorch pandas scipy numpy torch matplotlib
     sudo reboot -h
 
 Note: `tensorflow` is not in this list because it does not support above python3.8
@@ -56,7 +56,7 @@ Check vPython
     Python 3.9.7+ (heads/main-dirty:f1005f0, Apr 20 2022, 18:02:15)
     [GCC 11.2.0] on linux
     Type "help", "copyright", "credits" or "license" for more information.
-    >>> import sklearn, matplotlib, jupyter, pandas, scipy, seaborn, math, numpy, time
+    >>> import sklearn, pytorch, pandas, scipy, numpy, torch, matplotlib
 
 If everything works just fine, no error is prompted. Otherwise, run the install command in step 4 and re-install vPython (./configure, make, sudo make install).
 
@@ -82,7 +82,7 @@ Follow instruction in the link and Replace python3.8.4 by python3.8.13 because w
 
 Install necessary packages for both Python 3.8
 
-    python3.8 -m pip install scikit-learn matplotlib jupyter pandas scipy seaborn numpy
+    python3.8 -m pip install sklearn pytorch pandas scipy numpy torch matplotlib
 
 10. 
 Celebrate !
@@ -115,10 +115,11 @@ better histogram: https://stackoverflow.com/questions/23246125/how-to-center-lab
 <br>
 
 # Mics notes 
-search for tstate, check functions Gowri mentions
+Keywords in ceval.c
+tstate
 write_to_file
 write_stack
-frameobject.h?
+frameobject.h
 
 read resources online about ceval cpython
 struct in C
